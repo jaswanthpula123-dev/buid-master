@@ -17,6 +17,7 @@ import {
   Box,
   Layers,
   Eye,
+  FileText,
 } from 'lucide-react';
 import api from '../services/api';
 import SectionHeading from '../components/common/SectionHeading';
@@ -108,41 +109,107 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
-      {/* 1. HERO SECTION */}
-      <section className="relative min-h-[92vh] flex items-center justify-center pt-24 pb-16 overflow-hidden bg-navy-950">
-        {/* Architectural Background with low overlay */}
+      {/* 1. HERO SECTION - ENHANCED HIGH-CONTRAST & MAXIMUM VISIBILITY */}
+      <section className="relative min-h-[96vh] flex items-center justify-center pt-24 pb-16 overflow-hidden bg-navy-950">
+        {/* Architectural Background with enhanced high-contrast deep overlay */}
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=2000&q=90"
             alt="Modern luxury skyscraper"
-            className="w-full h-full object-cover object-center filter brightness-[0.32]"
+            className="w-full h-full object-cover object-center filter brightness-[0.22] contrast-[1.15]"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/60 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-navy-950/95 via-navy-950/75 to-navy-950"></div>
         </div>
 
         {/* Hero Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white flex flex-col items-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold-500/10 border border-gold-400/30 text-gold-400 text-xs sm:text-sm font-bold tracking-wider uppercase mb-6 animate-fadeIn">
-            <Sparkles size={16} />
-            Premier Construction & Real Estate Developer
+          {/* Top Developer Badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-500/15 border border-gold-400/40 text-gold-300 text-xs sm:text-sm font-black tracking-wider uppercase mb-5 shadow-lg shadow-gold-500/10 animate-fadeIn">
+            <Sparkles size={16} className="text-gold-400 shrink-0" />
+            <span>Premier Construction & Real Estate Developer</span>
           </div>
 
-          <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white max-w-5xl leading-[1.1] mb-6 drop-shadow-lg">
+          {/* Main Headline */}
+          <h1 className="font-display text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight text-white max-w-5xl leading-[1.1] mb-5 drop-shadow-2xl">
             Engineering Architectural{' '}
-            <span className="text-gold-gradient font-black">Landmarks</span> of Tomorrow
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-gold-400 to-amber-200">
+              Landmarks
+            </span>{' '}
+            of Tomorrow
           </h1>
 
-          <p className="max-w-2xl text-base sm:text-xl text-slate-300 font-light leading-relaxed mb-10 drop-shadow">
+          {/* High-Contrast Subtitle */}
+          <p className="max-w-3xl text-base sm:text-xl text-slate-100 font-normal leading-relaxed mb-8 drop-shadow-md">
             From high-rise residential towers and commercial tech parks to private beachfront villas.
             Experience unmatched craftsmanship, transparent construction milestones, and RERA-approved luxury.
           </p>
 
-          {/* SEARCH PROPERTIES WIDGET */}
-          <div className="w-full max-w-4xl bg-white/95 backdrop-blur-xl p-4 sm:p-6 rounded-3xl shadow-2xl border border-white/20 text-slate-800 text-left mb-8">
+          {/* 3 FLAGSHIP INNOVATIONS QUICK-ACTION CARDS */}
+          <div className="w-full max-w-4xl grid grid-cols-1 sm:grid-cols-3 gap-3.5 mb-8">
+            {/* Live Construction Tracker Card */}
+            <Link
+              to="/tracker"
+              className="group p-4 rounded-2xl bg-navy-900/90 hover:bg-navy-800/95 backdrop-blur-md border border-red-500/40 hover:border-red-400 shadow-xl transition-all duration-300 hover:scale-[1.02] flex items-center gap-3.5 text-left"
+            >
+              <div className="w-12 h-12 rounded-xl bg-red-950/80 border border-red-500/40 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform shadow-inner">
+                <span className="relative flex h-3.5 w-3.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3.5 w-3.5 bg-red-500"></span>
+                </span>
+              </div>
+              <div className="min-w-0">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-xs font-black uppercase tracking-wider text-red-400">Live 24/7</span>
+                  <span className="text-[10px] px-1.5 py-0.2 rounded bg-red-500/20 text-red-300 font-bold">CCTV HUD</span>
+                </div>
+                <p className="text-sm font-black text-white truncate group-hover:text-gold-300 transition-colors">Site Tracker</p>
+                <p className="text-[11px] text-slate-300 truncate">Telemetry & Milestones</p>
+              </div>
+            </Link>
+
+            {/* 3D Visualizer Card */}
+            <Link
+              to="/visualizer"
+              className="group p-4 rounded-2xl bg-navy-900/90 hover:bg-navy-800/95 backdrop-blur-md border border-gold-500/40 hover:border-gold-400 shadow-xl transition-all duration-300 hover:scale-[1.02] flex items-center gap-3.5 text-left"
+            >
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-tr from-gold-600/30 to-amber-500/20 border border-gold-400/40 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform shadow-inner">
+                <Box size={24} className="text-gold-400 stroke-[2.2]" />
+              </div>
+              <div className="min-w-0">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-xs font-black uppercase tracking-wider text-gold-400">3D Studio</span>
+                  <span className="text-[10px] px-1.5 py-0.2 rounded bg-gold-400/20 text-gold-300 font-bold">WebGL</span>
+                </div>
+                <p className="text-sm font-black text-white truncate group-hover:text-gold-300 transition-colors">House Visualizer</p>
+                <p className="text-[11px] text-slate-300 truncate">360° Walkthrough & Materials</p>
+              </div>
+            </Link>
+
+            {/* PDF Quotation Card */}
+            <Link
+              to="/quotation"
+              className="group p-4 rounded-2xl bg-navy-900/90 hover:bg-navy-800/95 backdrop-blur-md border border-emerald-500/40 hover:border-emerald-400 shadow-xl transition-all duration-300 hover:scale-[1.02] flex items-center gap-3.5 text-left"
+            >
+              <div className="w-12 h-12 rounded-xl bg-emerald-950/80 border border-emerald-500/40 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform shadow-inner">
+                <FileText size={24} className="text-emerald-400 stroke-[2.2]" />
+              </div>
+              <div className="min-w-0">
+                <div className="flex items-center gap-1.5">
+                  <span className="text-xs font-black uppercase tracking-wider text-emerald-400">PDF Quote</span>
+                  <span className="text-[10px] px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 font-bold">RERA</span>
+                </div>
+                <p className="text-sm font-black text-white truncate group-hover:text-gold-300 transition-colors">Cost Generator</p>
+                <p className="text-[11px] text-slate-300 truncate">Instant Stamped Cost Sheet</p>
+              </div>
+            </Link>
+          </div>
+
+          {/* SEARCH PROPERTIES WIDGET - ULTRA CLEAR & SHARP */}
+          <div className="w-full max-w-4xl bg-white p-5 sm:p-6 rounded-3xl shadow-2xl border-2 border-slate-100 text-slate-800 text-left mb-8">
             <form onSubmit={handleSearchSubmit} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {/* Location Input */}
               <div>
-                <label className="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1.5">
+                <label className="block text-xs font-black text-navy-950 uppercase tracking-wider mb-2">
                   Location / Area
                 </label>
                 <div className="relative">
@@ -151,22 +218,22 @@ const Home = () => {
                     value={searchLocation}
                     onChange={(e) => setSearchLocation(e.target.value)}
                     placeholder="e.g. Downtown, Bayview"
-                    className="w-full pl-3 pr-3 py-2.5 text-sm rounded-xl border border-slate-200 focus:outline-none focus:border-gold-500 font-medium"
+                    className="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-300 focus:outline-none focus:border-gold-500 focus:ring-1 focus:ring-gold-500 bg-slate-50 font-bold text-navy-900 placeholder:text-slate-400"
                   />
                 </div>
               </div>
 
               {/* Property Type Dropdown */}
               <div>
-                <label className="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1.5">
+                <label className="block text-xs font-black text-navy-950 uppercase tracking-wider mb-2">
                   Property Type
                 </label>
                 <select
                   value={searchType}
                   onChange={(e) => setSearchType(e.target.value)}
-                  className="w-full px-3 py-2.5 text-sm rounded-xl border border-slate-200 focus:outline-none focus:border-gold-500 bg-white font-medium"
+                  className="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-300 focus:outline-none focus:border-gold-500 focus:ring-1 focus:ring-gold-500 bg-slate-50 font-bold text-navy-900 cursor-pointer"
                 >
-                  <option value="All">All Types (Flats, Villas, etc.)</option>
+                  <option value="All">All Property Types</option>
                   <option value="Apartment">Apartment</option>
                   <option value="Flat">Flat</option>
                   <option value="Villa">Villa</option>
@@ -178,19 +245,19 @@ const Home = () => {
 
               {/* Budget Range Dropdown */}
               <div>
-                <label className="block text-xs font-bold text-slate-500 uppercase tracking-wider mb-1.5">
-                  Budget / Price
+                <label className="block text-xs font-black text-navy-950 uppercase tracking-wider mb-2">
+                  Budget / Price (INR)
                 </label>
                 <select
                   value={searchPrice}
                   onChange={(e) => setSearchPrice(e.target.value)}
-                  className="w-full px-3 py-2.5 text-sm rounded-xl border border-slate-200 focus:outline-none focus:border-gold-500 bg-white font-medium"
+                  className="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-300 focus:outline-none focus:border-gold-500 focus:ring-1 focus:ring-gold-500 bg-slate-50 font-bold text-navy-900 cursor-pointer"
                 >
                   <option value="All">Any Budget</option>
                   <option value="0-5000000">Under ₹50 Lakhs</option>
-                  <option value="5000000-10000000">₹50 Lakhs - ₹1 Crore</option>
-                  <option value="10000000-25000000">₹1 Crore - ₹2.5 Crore</option>
-                  <option value="25000000-100000000">₹2.5 Crore+ (Ultra Luxury)</option>
+                  <option value="5000000-10000000">₹50 L - ₹1 Crore</option>
+                  <option value="10000000-25000000">₹1 Cr - ₹2.5 Crore</option>
+                  <option value="25000000-100000000">₹2.5 Cr+ (Ultra Luxury)</option>
                 </select>
               </div>
 
@@ -198,32 +265,32 @@ const Home = () => {
               <div className="flex items-end">
                 <button
                   type="submit"
-                  className="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-gold-500 via-amber-500 to-gold-600 hover:from-gold-400 hover:to-amber-400 text-navy-950 font-extrabold text-sm shadow-lg hover:shadow-gold-glow flex items-center justify-center gap-2 transition"
+                  className="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-gold-500 via-amber-500 to-gold-600 hover:from-gold-400 hover:to-amber-400 text-navy-950 font-black text-sm uppercase tracking-wider shadow-lg hover:shadow-gold-glow flex items-center justify-center gap-2 transition hover:scale-[1.02]"
                 >
-                  <Search size={18} />
+                  <Search size={18} className="stroke-[2.5]" />
                   <span>Find Properties</span>
                 </button>
               </div>
             </form>
           </div>
 
-          {/* Quick stats below hero */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-12 text-center text-white/90">
-            <div>
-              <p className="text-3xl sm:text-4xl font-extrabold font-display text-gold-400">18+</p>
-              <p className="text-xs sm:text-sm text-slate-300 uppercase tracking-wider font-semibold">Years Experience</p>
+          {/* Quick stats below hero - High-contrast glassmorphic cards */}
+          <div className="w-full max-w-4xl grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 text-center">
+            <div className="p-3.5 sm:p-4 rounded-2xl bg-navy-900/85 backdrop-blur-md border border-white/10 shadow-xl">
+              <p className="text-3xl sm:text-4xl font-black font-display text-gold-400">18+</p>
+              <p className="text-xs sm:text-sm text-slate-200 uppercase tracking-wider font-bold mt-1">Years Experience</p>
             </div>
-            <div>
-              <p className="text-3xl sm:text-4xl font-extrabold font-display text-gold-400">120+</p>
-              <p className="text-xs sm:text-sm text-slate-300 uppercase tracking-wider font-semibold">Landmarks Built</p>
+            <div className="p-3.5 sm:p-4 rounded-2xl bg-navy-900/85 backdrop-blur-md border border-white/10 shadow-xl">
+              <p className="text-3xl sm:text-4xl font-black font-display text-gold-400">120+</p>
+              <p className="text-xs sm:text-sm text-slate-200 uppercase tracking-wider font-bold mt-1">Landmarks Built</p>
             </div>
-            <div>
-              <p className="text-3xl sm:text-4xl font-extrabold font-display text-gold-400">2.4M+</p>
-              <p className="text-xs sm:text-sm text-slate-300 uppercase tracking-wider font-semibold">Sq.Ft Delivered</p>
+            <div className="p-3.5 sm:p-4 rounded-2xl bg-navy-900/85 backdrop-blur-md border border-white/10 shadow-xl">
+              <p className="text-3xl sm:text-4xl font-black font-display text-gold-400">2.4M+</p>
+              <p className="text-xs sm:text-sm text-slate-200 uppercase tracking-wider font-bold mt-1">Sq.Ft Delivered</p>
             </div>
-            <div>
-              <p className="text-3xl sm:text-4xl font-extrabold font-display text-gold-400">99.4%</p>
-              <p className="text-xs sm:text-sm text-slate-300 uppercase tracking-wider font-semibold">On-Time Handover</p>
+            <div className="p-3.5 sm:p-4 rounded-2xl bg-navy-900/85 backdrop-blur-md border border-white/10 shadow-xl">
+              <p className="text-3xl sm:text-4xl font-black font-display text-gold-400">99.4%</p>
+              <p className="text-xs sm:text-sm text-slate-200 uppercase tracking-wider font-bold mt-1">On-Time Handover</p>
             </div>
           </div>
         </div>
