@@ -1,0 +1,1872 @@
+{
+  "users": [
+    {
+      "_id": "usr_admin_001",
+      "createdAt": "2026-11-18T12:09:03.993Z",
+      "updatedAt": "2026-11-18T12:09:03.993Z",
+      "name": "Robert Vance (Chief Builder)",
+      "email": "admin@buildmaster.com",
+      "password": "$2a$10$d1uuf27i5JHP72cc7MWf3e0O5RunldeyvO/g.QsFj/Co8wH59QezW",
+      "role": "admin",
+      "phone": "+1 (555) 019-2834",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "_id": "usr_cust_001",
+      "createdAt": "2026-11-18T12:09:03.993Z",
+      "updatedAt": "2026-11-18T12:09:03.993Z",
+      "name": "Alexander Wright",
+      "email": "customer@buildmaster.com",
+      "password": "$2a$10$d1uuf27i5JHP72cc7MWf3epS5UPE.sPvTEEKomQz7UA4hx578zwee",
+      "role": "customer",
+      "phone": "+1 (555) 438-9921",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80"
+    }
+  ],
+  "projects": [
+    {
+      "_id": "proj_comp_001",
+      "createdAt": "2026-11-18T12:09:03.994Z",
+      "updatedAt": "2026-11-18T12:09:03.994Z",
+      "title": "Grand Horizon Towers",
+      "slug": "grand-horizon-towers",
+      "status": "Completed",
+      "category": "Luxury High-Rise Residential",
+      "location": "Downtown Bayview, Sector 12",
+      "address": "742 Ocean Parkway, Bayview Metropolis",
+      "totalFloors": 28,
+      "totalUnits": 140,
+      "availableUnits": 8,
+      "soldUnits": 132,
+      "completionDate": "May 2024",
+      "progressPercentage": 100,
+      "priceRange": "₹85 Lakhs - ₹2.5 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Grand Horizon Towers stands tall as a beacon of modern architectural mastery in Downtown Bayview. Completed in May 2024, this premier 28-storey dual-tower landmark combines panoramic bay vistas with ultra-modern sustainable engineering, double-glazed acoustic facades, and world-class resort amenities.",
+      "features": [
+        "28 Storeys of Iconic Architecture",
+        "Sky Lounge & Infinity Pool on 25th Floor",
+        "Triple Height Italian Marble Entrance Lobby",
+        "German High-Speed Schindler Elevators",
+        "Multi-Tier 24/7 Biometric Security"
+      ],
+      "amenities": [
+        "Heated Infinity Pool",
+        "State-of-the-art TechnoGym",
+        "Spa & Steam Rooms",
+        "Private Banquet Hall",
+        "EV Rapid Charging Bays",
+        "Children Play Arena"
+      ],
+      "specifications": [
+        {
+          "label": "Structure",
+          "value": "Seismic Zone V compliant RCC shear wall construction"
+        },
+        {
+          "label": "Flooring",
+          "value": "Imported Botticino Italian Marble in living & dining areas"
+        },
+        {
+          "label": "Joinery",
+          "value": "8ft high engineered teakwood doors with Yale digital locks"
+        },
+        {
+          "label": "Electrical",
+          "value": "Concealed copper wiring with Schneider smart modular switches"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "2 BHK Premium Suite",
+          "area": "1,350 sq.ft",
+          "bedrooms": 2,
+          "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "3 BHK Royal Waterfront",
+          "area": "2,200 sq.ft",
+          "bedrooms": 3,
+          "image": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "_id": "proj_comp_002",
+      "createdAt": "2026-11-18T12:09:03.994Z",
+      "updatedAt": "2026-11-18T12:09:03.994Z",
+      "title": "Emerald Heights Residency",
+      "slug": "emerald-heights-residency",
+      "status": "Completed",
+      "category": "Eco-Living Residential Complex",
+      "location": "Green Valley Hillside, Sector 4",
+      "address": "108 Pinecrest Ridge, Green Valley",
+      "totalFloors": 16,
+      "totalUnits": 96,
+      "availableUnits": 5,
+      "soldUnits": 91,
+      "completionDate": "November 2023",
+      "progressPercentage": 100,
+      "priceRange": "₹65 Lakhs - ₹1.4 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Winner of the 2023 Sustainable Living Design Award, Emerald Heights is a low-carbon footprint gated community nestled in the serene foothills of Green Valley. Featuring 70% open landscape gardens, rainwater harvesting, and rooftop solar grids.",
+      "features": [
+        "IGBC Platinum Certified Green Architecture",
+        "Over 4 Acres of Landscaped Zen Parks",
+        "Rainwater Harvesting & Solar Energy Integration",
+        "Jogging & Cycling Tracks"
+      ],
+      "amenities": [
+        "Clubhouse with Amphitheatre",
+        "Olympic Length Lap Pool",
+        "Yoga & Meditation Pavilion",
+        "Organic Vegetable Terrace Garden"
+      ],
+      "specifications": [
+        {
+          "label": "Structure",
+          "value": "Earthquake resistant RCC framework"
+        },
+        {
+          "label": "Sanitaryware",
+          "value": "Kohler & Grohe water-saving sensor fixtures"
+        },
+        {
+          "label": "Windows",
+          "value": "Double acoustic UPVC sliding windows with mosquito mesh"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "2 BHK Garden View",
+          "area": "1,180 sq.ft",
+          "bedrooms": 2,
+          "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "3 BHK Panorama",
+          "area": "1,780 sq.ft",
+          "bedrooms": 3,
+          "image": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "_id": "proj_comp_003",
+      "createdAt": "2026-11-18T12:09:03.995Z",
+      "updatedAt": "2026-11-18T12:09:03.995Z",
+      "title": "The Mirage Sky Penthouses & Towers",
+      "slug": "the-mirage-sky-penthouses-towers",
+      "status": "Completed",
+      "category": "Ultra-Luxury Architectural Landmark",
+      "location": "Worli Sea Face, Marine Promenade",
+      "address": "450 Promenade Drive, Worli Sea Face",
+      "totalFloors": 38,
+      "totalUnits": 114,
+      "availableUnits": 5,
+      "soldUnits": 109,
+      "completionDate": "January 2024",
+      "progressPercentage": 100,
+      "priceRange": "₹3.50 Crore - ₹9.80 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Delivered in January 2024, The Mirage is an international architecture award winner overlooking the Arabian Sea. Standing 38 storeys tall, each residence features 180° uninterrupted ocean vistas, private lift access, Italian marble cladding, and a dramatic cantilevered Sky Pool on Level 35.",
+      "features": [
+        "Handover Completed: 100% Occupancy Certificate Delivered",
+        "Iconic 38-Storey Curved Glass Facade with Full Ocean Views",
+        "Winner of 2024 Best Luxury Skyscraper Architecture Award",
+        "Level 35 Cantilevered Glass-Bottom Sky Pool",
+        "Dedicated Rooftop Helipad with VIP Aviation Clearance",
+        "Private Temperature-Controlled Wine Vaults for Every Penthouse"
+      ],
+      "amenities": [
+        "Private Marine Yacht Concierge Desk",
+        "Hydrotherapy Spa & Wellness Centre by L'Occitane",
+        "Resident Banquet Ballroom for 250 Guests",
+        "Underground 4-Car Dedicated Garage per Flat",
+        "24/7 Multi-Tier Biometric & Iris Recognition Security"
+      ],
+      "specifications": [
+        {
+          "label": "Architectural Style",
+          "value": "Parametric Curvilinear Aerodynamic Glass Facade"
+        },
+        {
+          "label": "Flooring",
+          "value": "Imported Greek Thassos White Marble in All Rooms"
+        },
+        {
+          "label": "Air Conditioning",
+          "value": "Daikin VRV IV Air-Conditioning with Fresh Air Units"
+        },
+        {
+          "label": "Acoustic Insulation",
+          "value": "Schüco Triple-Glazed Argon Gas Acoustic Windows"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "3 BHK Ocean Suite",
+          "area": "2,450 sq.ft",
+          "bedrooms": 3,
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "4 BHK Grand Imperial Penthouse",
+          "area": "4,600 sq.ft",
+          "bedrooms": 4,
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "_id": "proj_comp_004",
+      "createdAt": "2026-11-18T12:09:03.995Z",
+      "updatedAt": "2026-11-18T12:09:03.995Z",
+      "title": "Sobha Kensington Royal Estate",
+      "slug": "sobha-kensington-royal-estate",
+      "status": "Completed",
+      "category": "Colonial Victorian Fusion Condominiums",
+      "location": "Kensington Enclave, Sector 21",
+      "address": "12 Windsor Crescent, Kensington Enclave",
+      "totalFloors": 22,
+      "totalUnits": 88,
+      "availableUnits": 6,
+      "soldUnits": 82,
+      "completionDate": "August 2023",
+      "progressPercentage": 100,
+      "priceRange": "₹1.85 Crore - ₹4.20 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Completed and handed over with 100% occupancy certification in August 2023, Sobha Kensington blends neoclassical British Regency architecture with modern high-rise engineering. Features manicured topiaries, Corinthian grand arches, and imported Italian Botticino marble.",
+      "features": [
+        "100% Completed & Delivered: Families Happily Residing",
+        "British Regency Neoclassical Facades & Grand Arches",
+        "8 Acres of Royal English Manicured Rose Gardens",
+        "Double-Height Grand Portico with Chandelier Atrium",
+        "Solid Teakwood Hand-Carved Joinery & Brass Trims"
+      ],
+      "amenities": [
+        "Lord Kensington 25,000 sq.ft British Club",
+        "Heated All-Weather Indoor Swimming Pool",
+        "Championship Squash & Lawn Tennis Courts",
+        "Children Equestrian Pony Riding Track",
+        "High Tea Verandah Overlooking Lotus Lake"
+      ],
+      "specifications": [
+        {
+          "label": "Structural Warranty",
+          "value": "10-Year Comprehensive Builder Structural Warranty"
+        },
+        {
+          "label": "Ceiling Height",
+          "value": "11.5 feet clear height with classical cornices"
+        },
+        {
+          "label": "Kitchen",
+          "value": "Poggenpohl German Modular Kitchen with Miele Appliances"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "3 BHK Royal Kensington",
+          "area": "2,100 sq.ft",
+          "bedrooms": 3,
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "4 BHK Duke of Windsor Mansion",
+          "area": "3,450 sq.ft",
+          "bedrooms": 4,
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "_id": "proj_comp_005",
+      "createdAt": "2026-11-18T12:09:03.996Z",
+      "updatedAt": "2026-11-18T12:09:03.996Z",
+      "title": "Palisades Waterfront Beach Villas",
+      "slug": "palisades-waterfront-beach-villas",
+      "status": "Completed",
+      "category": "Exclusive Gated Beachfront Mansions",
+      "location": "Palm Shore Coastline, Bayview",
+      "address": "22 Ocean Crest Boulevard, Palm Shore",
+      "totalFloors": 3,
+      "totalUnits": 24,
+      "availableUnits": 3,
+      "soldUnits": 21,
+      "completionDate": "December 2023",
+      "progressPercentage": 100,
+      "priceRange": "₹4.50 Crore - ₹11.50 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Palisades is an exclusive enclave of 24 beachfront mansions directly adjoining the golden sands of Palm Shore. Handed over in late 2023, each residence boasts a private 40ft infinity edge pool, floor-to-ceiling retractable glass walls, and private boardwalks to the water.",
+      "features": [
+        "Completed & Handed Over: Bespoke Ultra-Luxury Enclave",
+        "Direct Private Beachfront Frontage with Private Jetty",
+        "Heated Saltwater Infinity Pool per Villa",
+        "Subterranean Home Cinema & Wine Cellar",
+        "Private Rooftop Stargazing Lounge & Jacuzzi"
+      ],
+      "amenities": [
+        "Private Beach Club & Water Sports Marina",
+        "Helipad on Coastal Bluff",
+        "Private 24/7 Security Patrols & Drone Perimeter",
+        "Chauffeur & Butler Service Quarters"
+      ],
+      "specifications": [
+        {
+          "label": "Plot Area",
+          "value": "8,000 sq.ft to 14,000 sq.ft per mansion"
+        },
+        {
+          "label": "Smart Tech",
+          "value": "Crestron Full Smart Home Automation with iPad Wall Dock"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "4 BHK Beachfront Royal Triplex",
+          "area": "5,200 sq.ft",
+          "bedrooms": 4,
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "_id": "proj_comp_006",
+      "createdAt": "2026-11-18T12:09:03.997Z",
+      "updatedAt": "2026-11-18T12:09:03.997Z",
+      "title": "Apex Corporate Tower & Executive Suites",
+      "slug": "apex-corporate-tower-executive-suites",
+      "status": "Completed",
+      "category": "Grade-A Commercial High-Rise",
+      "location": "Central Business District, Metro Plaza",
+      "address": "55 Financial Boulevard, CBD",
+      "totalFloors": 30,
+      "totalUnits": 90,
+      "availableUnits": 6,
+      "soldUnits": 84,
+      "completionDate": "March 2024",
+      "progressPercentage": 100,
+      "priceRange": "₹95 Lakhs - ₹3.40 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Delivered on time in March 2024, Apex Tower is now the regional headquarters for multinational financial firms and law practices. Boasts double-glazed thermal curtain facades, central HVAC with hospital-grade HEPA filtration, and LEED Gold environmental certification.",
+      "features": [
+        "Delivered March 2024: 100% Fully Functional Corporate Hub",
+        "LEED Gold Certified Sustainable Commercial Tower",
+        "Double-Height Grand Lobby with Granite Waterfall",
+        "High-Speed 4m/s Otis Smart Destination Elevators",
+        "100% Redundant Dual Power Grids with Diesel Backup"
+      ],
+      "amenities": [
+        "400-Seat Hybrid Conference Amphitheatre",
+        "Sky Garden Cafeteria on 18th Floor",
+        "Automated 5-Level Underground Valet Parking",
+        "Executive Business Club with Boardrooms"
+      ],
+      "specifications": [
+        {
+          "label": "HVAC",
+          "value": "High-Efficiency Chilled Water System with MERV-14 Filtration"
+        },
+        {
+          "label": "Efficiency",
+          "value": "Floor Plate Efficiency Ratio: 86%"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "Executive Corporate Office Suite",
+          "area": "1,800 sq.ft",
+          "bedrooms": 0,
+          "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "_id": "proj_ong_001",
+      "createdAt": "2026-11-18T12:09:03.997Z",
+      "updatedAt": "2026-11-18T12:09:03.997Z",
+      "title": "Skyline Pinnacle Residences",
+      "slug": "skyline-pinnacle-residences",
+      "status": "Ongoing",
+      "category": "Ultra-Luxury Skyscraper",
+      "location": "Midtown Financial District, Central Boulevard",
+      "address": "500 Central Avenue, Midtown",
+      "totalFloors": 36,
+      "totalUnits": 180,
+      "availableUnits": 64,
+      "soldUnits": 116,
+      "expectedCompletionDate": "December 2025",
+      "progressPercentage": 68,
+      "priceRange": "₹1.25 Crore - ₹5.5 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Rising 36 storeys above the financial district, Skyline Pinnacle is our most ambitious ongoing marvel. Construction is 68% complete with the main structural framing finished up to Level 32. It introduces automated smart home integrations, double-height ceiling penthouses, and private elevator vestibules.",
+      "features": [
+        "Currently Under Active Construction: 68% Milestone Reached",
+        "Rooftop Helipad & Private Sky Lounge",
+        "Full-Glass Curtain Wall with Low-E Thermal Glazing",
+        "Private Swimming Pools in Sky Villas"
+      ],
+      "amenities": [
+        "Sky Deck on Level 34",
+        "Temperature-Controlled Indoor Pool",
+        "Bespoke Cigar & Wine Tasting Lounge",
+        "Private Cinema Screening Theatre",
+        "Concierge Service & Valet Parking"
+      ],
+      "specifications": [
+        {
+          "label": "Current Phase",
+          "value": "Facade Installation & Interior MEP Works (Level 26 to 32)"
+        },
+        {
+          "label": "Total Height",
+          "value": "142 meters (465 feet)"
+        },
+        {
+          "label": "Safety Systems",
+          "value": "Advanced Honeywell fire dampers & pressurized escape stairs"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "3 BHK Executive Penthouse",
+          "area": "2,800 sq.ft",
+          "bedrooms": 3,
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "4 BHK Duplex Imperial",
+          "area": "4,100 sq.ft",
+          "bedrooms": 4,
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "milestones": [
+        {
+          "name": "Deep Bored Piling & Soil Consolidation",
+          "percentage": 100,
+          "status": "Completed",
+          "completionDate": "Jan 2024",
+          "inspectionNotes": "Load tested to 1500 tonnes. Zero deflection observed."
+        },
+        {
+          "name": "4-Level Underground Smart Parking Basements",
+          "percentage": 100,
+          "status": "Completed",
+          "completionDate": "Jun 2024",
+          "inspectionNotes": "Retaining walls waterproofed with Vandex membrane."
+        },
+        {
+          "name": "RCC Framing & Slab Casting (Level 32 of 36)",
+          "percentage": 88,
+          "status": "In Progress",
+          "completionDate": "Dec 2024",
+          "inspectionNotes": "Level 32 slab poured with UltraTech M50 high-tensile mix."
+        },
+        {
+          "name": "Exterior Facade & Acoustic Double Glazing",
+          "percentage": 65,
+          "status": "In Progress",
+          "completionDate": "Mar 2025",
+          "inspectionNotes": "Saint-Gobain Low-E thermal glass installed up to Floor 26."
+        },
+        {
+          "name": "MEP, Electrical Risers & Fire Fighting Lines",
+          "percentage": 50,
+          "status": "In Progress",
+          "completionDate": "May 2025",
+          "inspectionNotes": "Schneider bus ducts and Grohe plumbing lines tested."
+        },
+        {
+          "name": "Interior Italian Marble & Custom Woodwork",
+          "percentage": 30,
+          "status": "In Progress",
+          "completionDate": "Aug 2025",
+          "inspectionNotes": "Botticino marble laying underway in Floors 10-18."
+        },
+        {
+          "name": "Rooftop Helipad, Infinity Pool & Sky Deck",
+          "percentage": 15,
+          "status": "Pending",
+          "completionDate": "Oct 2025",
+          "inspectionNotes": "Helipad structural cantilever reinforcement planned."
+        },
+        {
+          "name": "RERA Compliance Audit, OC & Key Handover",
+          "percentage": 0,
+          "status": "Pending",
+          "completionDate": "Dec 2025",
+          "inspectionNotes": "Municipal statutory occupancy certification phase."
+        }
+      ],
+      "siteMetrics": {
+        "activeWorkforce": 245,
+        "safetyScore": "100% Zero LTI (2,400 Safe Hours)",
+        "concreteGrade": "M50 Self-Compacting High-Flow",
+        "weatherCondition": "Clear Skies / 28°C / Low Wind",
+        "lastInspected": "17 Nov 2026 by Bureau of Quality Audit"
+      },
+      "siteCameras": [
+        {
+          "id": "cam-1",
+          "name": "CAM 01: North Tower Crane Mast View",
+          "location": "Level 34 Crane Mast",
+          "thumbnail": "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=800&q=80",
+          "status": "Live HD"
+        },
+        {
+          "id": "cam-2",
+          "name": "CAM 02: Level 28 Facade Installation",
+          "location": "Floor 28 Exterior Scaffolding",
+          "thumbnail": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80",
+          "status": "Live HD"
+        },
+        {
+          "id": "cam-3",
+          "name": "CAM 03: Ground Podium & Entrance Lobby",
+          "location": "Grand Boulevard Entrance",
+          "thumbnail": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+          "status": "Live HD"
+        }
+      ],
+      "timelinePhotos": [
+        {
+          "date": "Nov 2026",
+          "title": "Level 32 Slab Concreting Complete",
+          "stage": "RCC Framing",
+          "image": "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?auto=format&fit=crop&w=800&q=80",
+          "notes": "Core shear walls reached 128m elevation. Curing checked."
+        },
+        {
+          "date": "Sep 2026",
+          "title": "Thermal Curtain Glazing Installed",
+          "stage": "Facade Works",
+          "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+          "notes": "Acoustic seal tested with pressurized water spray gun."
+        },
+        {
+          "date": "Jul 2026",
+          "title": "Internal MEP Risers Hydraulic Pressure Test",
+          "stage": "MEP Services",
+          "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+          "notes": "Tested at 15 bar pressure. Certified leak-free."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "_id": "proj_ong_002",
+      "createdAt": "2026-11-18T12:09:03.998Z",
+      "updatedAt": "2026-11-18T12:09:03.998Z",
+      "title": "Solaria Business & Tech Park",
+      "slug": "solaria-business-tech-park",
+      "status": "Ongoing",
+      "category": "Commercial & Corporate Hub",
+      "location": "Tech Corridor Boulevard, North Gate",
+      "address": "12 Innovation Drive, Tech Corridor",
+      "totalFloors": 20,
+      "totalUnits": 80,
+      "availableUnits": 38,
+      "soldUnits": 42,
+      "expectedCompletionDate": "August 2026",
+      "progressPercentage": 42,
+      "priceRange": "₹75 Lakhs - ₹3.8 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Solaria Business Park is engineered for high-growth tech enterprises, Fortune 500 regional offices, and executive retail suites. Construction progress is on schedule at 42%, with floor plates designed for maximum natural daylight and zero pillar obstruction.",
+      "features": [
+        "Large Column-Free Floor Plates (up to 25,000 sq.ft)",
+        "100% Redundant Power Backup & Solar Energy Net Metering",
+        "Central High-Efficiency Chilled Water HVAC Systems",
+        "Subterranean 4-Level Smart Sensor Parking"
+      ],
+      "amenities": [
+        "Auditorium with 300-seat capacity",
+        "Food Court & Rooftop Alfresco Cafeteria",
+        "High-Speed Fiber Optic Backbone"
+      ],
+      "specifications": [
+        {
+          "label": "Current Phase",
+          "value": "Level 10 slab casting & mechanical risers installation"
+        },
+        {
+          "label": "Floor-to-Ceiling Height",
+          "value": "4.2 meters clear height"
+        }
+      ],
+      "milestones": [
+        {
+          "name": "Site Clearing, Excavation & Retaining Diaphragm Walls",
+          "percentage": 100,
+          "status": "Completed",
+          "completionDate": "Mar 2024",
+          "inspectionNotes": "Subsoil drainage confirmed."
+        },
+        {
+          "name": "Deep Raft Foundation & Basement Slabs (Levels -1 to -4)",
+          "percentage": 100,
+          "status": "Completed",
+          "completionDate": "Jul 2024",
+          "inspectionNotes": "Waterproofing inspected."
+        },
+        {
+          "name": "Composite Steel-Concrete Superstructure (Level 10)",
+          "percentage": 65,
+          "status": "In Progress",
+          "completionDate": "Jan 2025",
+          "inspectionNotes": "Steel column erection on track."
+        },
+        {
+          "name": "High-Efficiency Low-E Double Facade & Louvers",
+          "percentage": 35,
+          "status": "In Progress",
+          "completionDate": "Apr 2025",
+          "inspectionNotes": "Curtain wall brackets anchored."
+        },
+        {
+          "name": "Central Chilled Water HVAC Risers & Substation",
+          "percentage": 20,
+          "status": "In Progress",
+          "completionDate": "Jun 2025",
+          "inspectionNotes": "Daikin chillers delivered."
+        },
+        {
+          "name": "Elevator Shaft Installation & Testing (Schindler 7000)",
+          "percentage": 10,
+          "status": "Pending",
+          "completionDate": "Oct 2025",
+          "inspectionNotes": "Shaft plumbing underway."
+        },
+        {
+          "name": "LEED Platinum Green Audit & Grand Handover",
+          "percentage": 0,
+          "status": "Pending",
+          "completionDate": "Aug 2026",
+          "inspectionNotes": "Commissioning phase."
+        }
+      ],
+      "siteMetrics": {
+        "activeWorkforce": 165,
+        "safetyScore": "100% Zero Accidents",
+        "concreteGrade": "Fe 550D TMT / M45",
+        "weatherCondition": "Clear / 27°C",
+        "lastInspected": "15 Nov 2026"
+      },
+      "siteCameras": [
+        {
+          "id": "sol-1",
+          "name": "CAM 01: Core Tower Slab View",
+          "location": "Level 12 Jib Crane",
+          "thumbnail": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+          "status": "Live HD"
+        },
+        {
+          "id": "sol-2",
+          "name": "CAM 02: North Facade & Scaffolding",
+          "location": "North Elevation Tower",
+          "thumbnail": "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80",
+          "status": "Live HD"
+        }
+      ],
+      "timelinePhotos": [
+        {
+          "date": "Nov 2026",
+          "title": "10th Floor Slab Reinforcement Grid",
+          "stage": "RCC Decking",
+          "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+          "notes": "Reinforcement density certified per structural drawings."
+        }
+      ],
+      "featured": false
+    },
+    {
+      "_id": "proj_ong_003",
+      "createdAt": "2026-11-18T12:09:03.998Z",
+      "updatedAt": "2026-11-18T12:09:03.998Z",
+      "title": "The Lumina Ocean Residences",
+      "slug": "the-lumina-ocean-residences",
+      "status": "Ongoing",
+      "category": "Ultra-Luxury Waterfront Towers",
+      "location": "Marine Promenade, South Bay",
+      "address": "88 Ocean Promenade, South Bay Marina",
+      "totalFloors": 42,
+      "totalUnits": 168,
+      "availableUnits": 52,
+      "soldUnits": 116,
+      "expectedCompletionDate": "March 2026",
+      "progressPercentage": 76,
+      "priceRange": "₹2.85 Crore - ₹7.50 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Rising 42 storeys directly over South Bay Marine Promenade, The Lumina is an iconic curvilinear waterfront residential tower. Currently progressing at 76% construction completion, the structural frame is topped out with the signature cantilevered Sky Lounge and double-glazed acoustic facade installation underway.",
+      "features": [
+        "Currently Under Active Construction: 76% Milestone Reached",
+        "42 Storeys with Unobstructed 270° Ocean Views",
+        "Cantilevered Infinity Sky Pool on 38th Floor",
+        "Direct Private Yacht Marina Pier Access",
+        "Automated Multi-Vehicle Robotic Parking Garage",
+        "Italian Travertine Stone & Curved Glass Facade"
+      ],
+      "amenities": [
+        "Private Marine Clubhouse & Wine Cellar",
+        "Ozone-Purified Olympic Lap Pool",
+        "Wellness Spa & Hydrotherapy Plunge Pools",
+        "Private Resident Cinema with Dolby Atmos",
+        "24/7 White-Glove Concierge & Valet"
+      ],
+      "specifications": [
+        {
+          "label": "Current Phase",
+          "value": "Level 38 Sky Lounge Cantilever Framing & Facade Cladding"
+        },
+        {
+          "label": "Foundation Type",
+          "value": "Deep marine bored piles with anti-saline concrete barrier"
+        },
+        {
+          "label": "Acoustic Rating",
+          "value": "STC 55 double-glazed thermal curtain wall"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "3 BHK Oceanfront Sky Suite",
+          "area": "2,650 sq.ft",
+          "bedrooms": 3,
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "4 BHK Duplex Penthouse with Private Deck",
+          "area": "4,400 sq.ft",
+          "bedrooms": 4,
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "milestones": [
+        {
+          "name": "Marine Bored Piling & Soil Consolidation",
+          "percentage": 100,
+          "status": "Completed",
+          "completionDate": "Dec 2023",
+          "inspectionNotes": "Load tested to 1800 tonnes."
+        },
+        {
+          "name": "Subterranean 4-Level Marine Basements",
+          "percentage": 100,
+          "status": "Completed",
+          "completionDate": "May 2024",
+          "inspectionNotes": "Anti-saline waterproof membrane verified."
+        },
+        {
+          "name": "RCC Framing & Slab Casting (Level 40 of 42)",
+          "percentage": 95,
+          "status": "In Progress",
+          "completionDate": "Jan 2025",
+          "inspectionNotes": "Level 40 concrete cured and tested."
+        },
+        {
+          "name": "Curvilinear Double-Glazed Facade Installation",
+          "percentage": 72,
+          "status": "In Progress",
+          "completionDate": "May 2025",
+          "inspectionNotes": "Saint-Gobain Low-E acoustic glass up to L32."
+        },
+        {
+          "name": "MEP, Electrical & Smart Home Risers",
+          "percentage": 55,
+          "status": "In Progress",
+          "completionDate": "Aug 2025",
+          "inspectionNotes": "Internal plumbing lines pressure tested."
+        },
+        {
+          "name": "Cantilevered Sky Pool & Handover",
+          "percentage": 20,
+          "status": "Pending",
+          "completionDate": "Mar 2026",
+          "inspectionNotes": "Structural cantilever anchors locked."
+        }
+      ],
+      "siteMetrics": {
+        "activeWorkforce": 210,
+        "safetyScore": "100% Zero LTI (3,100 Safe Hours)",
+        "concreteGrade": "M55 Marine Durability High-Flow",
+        "weatherCondition": "Sea Breeze / 26°C / Clear",
+        "lastInspected": "18 Nov 2026 by Marine Structural Audit"
+      },
+      "siteCameras": [
+        {
+          "id": "lum-1",
+          "name": "CAM 01: South Bay Sky Mast View",
+          "location": "Level 42 Mast Crane",
+          "thumbnail": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80",
+          "status": "Live HD"
+        },
+        {
+          "id": "lum-2",
+          "name": "CAM 02: Marina Promenade Ground Podium",
+          "location": "Grand Boulevard Gate",
+          "thumbnail": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80",
+          "status": "Live HD"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "_id": "proj_ong_004",
+      "createdAt": "2026-11-18T12:09:03.999Z",
+      "updatedAt": "2026-11-18T12:09:03.999Z",
+      "title": "Elysium Serene Hills & Golf Mansions",
+      "slug": "elysium-serene-hills-golf-mansions",
+      "status": "Ongoing",
+      "category": "Ultra-Luxury Golf Villas & Mansions",
+      "location": "Whispering Pines Ridge, Western Highlands",
+      "address": "18 Championship Boulevard, Pine Ridge Valley",
+      "totalFloors": 3,
+      "totalUnits": 48,
+      "availableUnits": 16,
+      "soldUnits": 32,
+      "expectedCompletionDate": "November 2025",
+      "progressPercentage": 58,
+      "priceRange": "₹3.20 Crore - ₹8.90 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Spread across 40 rolling acres of verdant highlands, Elysium features 48 bespoke triplex golf mansions overlooking an 18-hole championship golf course. At 58% construction completion, individual villa structures are fully cast with infinity swimming pools, sunken fire pits, and imported Spanish slate roofs taking shape.",
+      "features": [
+        "Under Active Construction: 58% Progress Milestone",
+        "18-Hole Championship Golf Course Frontage",
+        "Private 50-Foot Heated Edge Infinity Pool per Mansion",
+        "Private Hydraulic Glass Elevators Inside Each Villa",
+        "Sunken Outdoor Fireplace & Stargazing Sky Terrace",
+        "Triple Height Vaulted Ceilings with Teak Wood Trussing"
+      ],
+      "amenities": [
+        "PGA-Certified Golf Academy & Pro Shop",
+        "Equestrian Stables & Riding Trails",
+        "Organic Farm-to-Table Resident Bistro",
+        "Private Helipad on Ridge Peak",
+        "Round-the-clock Security with Perimeter Laser Sensing"
+      ],
+      "specifications": [
+        {
+          "label": "Current Phase",
+          "value": "Villa Superstructures Cast & Infinity Pool Waterproofing"
+        },
+        {
+          "label": "Roofing Material",
+          "value": "Imported Spanish Natural Slate with Thermal Barrier"
+        },
+        {
+          "label": "Landscape Design",
+          "value": "Integrated Botanical Bioswales & Native Pine Groves"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "4 BHK Fairway Grand Triplex",
+          "area": "4,800 sq.ft",
+          "bedrooms": 4,
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "5 BHK Presidential Estate Villa",
+          "area": "6,800 sq.ft",
+          "bedrooms": 5,
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "milestones": [
+        {
+          "name": "Hillside Tiered Retaining Walls & Footings",
+          "percentage": 100,
+          "status": "Completed",
+          "completionDate": "Feb 2024",
+          "inspectionNotes": "Geotechnical soil consolidation certified."
+        },
+        {
+          "name": "Triplex Reinforced Concrete Superstructures",
+          "percentage": 90,
+          "status": "In Progress",
+          "completionDate": "Dec 2024",
+          "inspectionNotes": "38 of 48 villa shells fully cast."
+        },
+        {
+          "name": "Private Infinity Pools & Deck Substrates",
+          "percentage": 65,
+          "status": "In Progress",
+          "completionDate": "Apr 2025",
+          "inspectionNotes": "Dual-coat polyurethane waterproofing applied."
+        },
+        {
+          "name": "Spanish Natural Slate Roofing & Joinery",
+          "percentage": 52,
+          "status": "In Progress",
+          "completionDate": "Jul 2025",
+          "inspectionNotes": "Solid teak roof trusses assembled."
+        },
+        {
+          "name": "Fairway Landscaping & Final Handover",
+          "percentage": 10,
+          "status": "Pending",
+          "completionDate": "Nov 2025",
+          "inspectionNotes": "Golf green sod laying scheduled."
+        }
+      ],
+      "siteMetrics": {
+        "activeWorkforce": 180,
+        "safetyScore": "100% Zero LTI (2,800 Safe Hours)",
+        "concreteGrade": "High-Strength M45 Structural Mix",
+        "weatherCondition": "Misty Highland Breezes / 21°C",
+        "lastInspected": "14 Nov 2026 by Ridge Geotechnical Engineers"
+      },
+      "siteCameras": [
+        {
+          "id": "ely-1",
+          "name": "CAM 01: Fairway 9 Golf Course View",
+          "location": "Central Ridge Mast",
+          "thumbnail": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80",
+          "status": "Live HD"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "_id": "proj_ong_005",
+      "createdAt": "2026-11-18T12:09:04.000Z",
+      "updatedAt": "2026-11-18T12:09:04.000Z",
+      "title": "Vertex Cyber One Tech Towers",
+      "slug": "vertex-cyber-one-tech-towers",
+      "status": "Ongoing",
+      "category": "Next-Gen Commercial Tech Park & Smart Offices",
+      "location": "Silicon Expressway, Cyber City Phase 2",
+      "address": "100 Innovation Way, Cyber City",
+      "totalFloors": 32,
+      "totalUnits": 96,
+      "availableUnits": 44,
+      "soldUnits": 52,
+      "expectedCompletionDate": "January 2026",
+      "progressPercentage": 62,
+      "priceRange": "₹1.10 Crore - ₹4.60 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Vertex Cyber One is an architectural triumph engineered for multinational tech campuses and venture headquarters. At 62% completion, the 32-storey steel diagrid skyscraper features column-free floor plates of 30,000 sq.ft, double-height breakout sky gardens, and IGBC Platinum Net-Zero building standards.",
+      "features": [
+        "Active Construction: 62% Completed on Fast-Track Schedule",
+        "Column-Free 30,000 sq.ft High-Span Floor Plates",
+        "IGBC Platinum Pre-Certified Zero Carbon Footprint",
+        "Double-Decker High-Speed Destination Elevators",
+        "Rooftop Executive Drone Port & Helipad",
+        "Smart Building IoT Centralized Energy Management"
+      ],
+      "amenities": [
+        "500-Seater Auditorium & Hybrid Event Amphitheatre",
+        "Multi-Cuisine Corporate Food Hall & Cafes",
+        "Executive Gym with 25m Heated Swimming Pool",
+        "Subterranean EV Supercharging Plaza with 120 Bays",
+        "24/7 Redundant Fiber-Optic High Availability Hub"
+      ],
+      "specifications": [
+        {
+          "label": "Current Phase",
+          "value": "Level 22 Composite Steel Core & Exterior Diagrid Bracing"
+        },
+        {
+          "label": "Floor-to-Ceiling Height",
+          "value": "4.5 meters clear height"
+        },
+        {
+          "label": "Power Redundancy",
+          "value": "N+1 100% Diesel Genset Backup with 48-Hour Diesel Bank"
+        }
+      ],
+      "milestones": [
+        {
+          "name": "Diaphragm Retaining Wall & Subterranean 4 Basements",
+          "percentage": 100,
+          "status": "Completed",
+          "completionDate": "Jan 2024",
+          "inspectionNotes": "Basement waterproofing complete."
+        },
+        {
+          "name": "Structural Steel Core Erection to Level 24",
+          "percentage": 75,
+          "status": "In Progress",
+          "completionDate": "Dec 2024",
+          "inspectionNotes": "High-tensile torque bolts tested."
+        },
+        {
+          "name": "Curtain Glazing & Smart Electrochromic Windows",
+          "percentage": 48,
+          "status": "In Progress",
+          "completionDate": "May 2025",
+          "inspectionNotes": "Solar heat gain coefficient tested."
+        },
+        {
+          "name": "Central Chilled Water HVAC Plants & Air Handlers",
+          "percentage": 35,
+          "status": "In Progress",
+          "completionDate": "Aug 2025",
+          "inspectionNotes": "Daikin magnetic bearing chillers installed."
+        },
+        {
+          "name": "LEED Platinum Net-Zero Certification & Handover",
+          "percentage": 10,
+          "status": "Pending",
+          "completionDate": "Jan 2026",
+          "inspectionNotes": "Energy modeling validation on track."
+        }
+      ],
+      "siteMetrics": {
+        "activeWorkforce": 230,
+        "safetyScore": "100% Zero LTI (3,800 Safe Hours)",
+        "concreteGrade": "Composite Steel-Concrete M50 Deck",
+        "weatherCondition": "Clear / 28°C",
+        "lastInspected": "16 Nov 2026 by Council of Tall Buildings"
+      },
+      "siteCameras": [
+        {
+          "id": "ver-1",
+          "name": "CAM 01: Core Steel Diagrid North View",
+          "location": "Level 24 Derrick Crane",
+          "thumbnail": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
+          "status": "Live HD"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "_id": "proj_ong_006",
+      "createdAt": "2026-11-18T12:09:04.000Z",
+      "updatedAt": "2026-11-18T12:09:04.000Z",
+      "title": "The Royal Windsor Garden Estates",
+      "slug": "the-royal-windsor-garden-estates",
+      "status": "Ongoing",
+      "category": "Victorian-Modern Fusion Luxury Condos",
+      "location": "Royal Palm Enclave, Sector 18",
+      "address": "77 Windsor Court, Royal Palm Boulevard",
+      "totalFloors": 24,
+      "totalUnits": 120,
+      "availableUnits": 22,
+      "soldUnits": 98,
+      "expectedCompletionDate": "July 2025",
+      "progressPercentage": 84,
+      "priceRange": "₹1.45 Crore - ₹3.80 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Merging timeless Victorian classical facades with cutting-edge 21st century structural engineering, The Royal Windsor is in the final delivery phase at 84% completion. Nestled within 12 acres of manicured English gardens, it offers grand Corinthian colonnades, private lift lobbies, and Italian marble finishes.",
+      "features": [
+        "Final Finishing Phase: 84% Completed, Handover July 2025",
+        "12 Acres of British Royal Themed Manicured Gardens",
+        "Grand Corinthian Colonnaded Portico & Fountain Plazas",
+        "Private Temperature-Controlled Wine Storage Lockers",
+        "Only 2 Residences per Floor for Maximum Privacy",
+        "Custom Handcrafted Brass Fixtures & Teakwood Doors"
+      ],
+      "amenities": [
+        "Windsor Castle-Themed 35,000 sq.ft Clubhouse",
+        "Indoor Heated Badminton & Squash Courts",
+        "Library Lounge & Afternoon High Tea Terrace",
+        "Jogging Track Wrapped around Lotus Lake",
+        "Heated Indoor Hydro-Massage Swimming Pool"
+      ],
+      "specifications": [
+        {
+          "label": "Current Phase",
+          "value": "Interior Botticino Marble Laying & Landscape Fountain Paving"
+        },
+        {
+          "label": "Flooring",
+          "value": "High-Gloss Italian Botticino Classico in Living & Dining"
+        },
+        {
+          "label": "Security",
+          "value": "Multi-Tier Smart Access with Face Recognition & Video Intercom"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "3 BHK Royal Kensington Suite",
+          "area": "2,150 sq.ft",
+          "bedrooms": 3,
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "4 BHK Buckingham Grand Residence",
+          "area": "3,350 sq.ft",
+          "bedrooms": 4,
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "milestones": [
+        {
+          "name": "RCC Framing Up to 24th Floor Terrace",
+          "percentage": 100,
+          "status": "Completed",
+          "completionDate": "May 2024",
+          "inspectionNotes": "Roof casting completed and certified."
+        },
+        {
+          "name": "Masonry Brickwork & External Classical Plastering",
+          "percentage": 100,
+          "status": "Completed",
+          "completionDate": "Aug 2024",
+          "inspectionNotes": "Corinthian capitals aligned and cured."
+        },
+        {
+          "name": "MEP Services & Schindler High-Speed Lifts",
+          "percentage": 88,
+          "status": "In Progress",
+          "completionDate": "Dec 2024",
+          "inspectionNotes": "Lift shafts wired and testing started."
+        },
+        {
+          "name": "Interior Italian Marble & Teakwood Joinery",
+          "percentage": 76,
+          "status": "In Progress",
+          "completionDate": "Mar 2025",
+          "inspectionNotes": "Marble polishing active on Floors 14-20."
+        },
+        {
+          "name": "Manicured English Gardens, Fountains & Key Handover",
+          "percentage": 40,
+          "status": "In Progress",
+          "completionDate": "Jul 2025",
+          "inspectionNotes": "Lawn seeding and fountain piping on schedule."
+        }
+      ],
+      "siteMetrics": {
+        "activeWorkforce": 195,
+        "safetyScore": "100% Zero LTI (2,950 Safe Hours)",
+        "concreteGrade": "Fe 550D TMT / High-Density M45",
+        "weatherCondition": "Sunny / 27°C",
+        "lastInspected": "17 Nov 2026 by Structural QC Bureau"
+      },
+      "siteCameras": [
+        {
+          "id": "win-1",
+          "name": "CAM 01: Grand Entrance Fountain Plaza",
+          "location": "Gate 1 Royal Arch",
+          "thumbnail": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80",
+          "status": "Live HD"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "_id": "proj_upc_001",
+      "createdAt": "2026-11-18T12:09:04.001Z",
+      "updatedAt": "2026-11-18T12:09:04.001Z",
+      "title": "Aura Waterfront Villas & Spa",
+      "slug": "aura-waterfront-villas-spa",
+      "status": "Upcoming",
+      "category": "Exclusive Gated Luxury Villas",
+      "location": "Marina Coastline, Palm Bay",
+      "address": "100 Marina Cove, Palm Bay Coast",
+      "totalFloors": 3,
+      "totalUnits": 32,
+      "availableUnits": 32,
+      "soldUnits": 0,
+      "estimatedStartDate": "February 2027",
+      "expectedCompletionDate": "November 2028",
+      "progressPercentage": 0,
+      "priceRange": "₹3.5 Crore - ₹8.5 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Planned as the jewel of Palm Bay, Aura Waterfront Villas offers 32 bespoke private residences facing the tranquil turquoise ocean waters. Each signature villa features private yacht berths, sunken garden courtyards, infinity edge swimming pools, and architectural designs by world-renowned masters.",
+      "features": [
+        "Private Yacht Mooring for Every Villa",
+        "Bespoke Heated Infinity Pool & Sun Terrace",
+        "Private Subterranean 3-Car Showroom Garage",
+        "Smart Home Automation with Remote Voice Control",
+        "Private Butler & Valet Quarters"
+      ],
+      "amenities": [
+        "Private Marina & Yacht Club",
+        "Ayurvedic Wellness Spa Sanctuary",
+        "Private Helipad Access",
+        "Fine Dining Pier Restaurant"
+      ],
+      "specifications": [
+        {
+          "label": "Project Status",
+          "value": "Master Plan Approved, Pre-Booking Open"
+        },
+        {
+          "label": "Plot Sizes",
+          "value": "6,000 sq.ft to 12,000 sq.ft"
+        },
+        {
+          "label": "Architectural Style",
+          "value": "Contemporary Mediterranean Minimalist"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "4 BHK Beachfront Royal Villa",
+          "area": "4,500 sq.ft",
+          "bedrooms": 4,
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "5 BHK Ocean Crest Presidential",
+          "area": "6,200 sq.ft",
+          "bedrooms": 5,
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "_id": "proj_upc_002",
+      "createdAt": "2026-11-18T12:09:04.002Z",
+      "updatedAt": "2026-11-18T12:09:04.002Z",
+      "title": "Nova Tech Hub & Smart Lofts",
+      "slug": "nova-tech-hub-smart-lofts",
+      "status": "Upcoming",
+      "category": "Sustainable Mixed-Use High-Rise",
+      "location": "Innovation District, Sector 9",
+      "address": "42 Silicon Avenue, Innovation Hub",
+      "totalFloors": 24,
+      "totalUnits": 120,
+      "availableUnits": 120,
+      "soldUnits": 0,
+      "estimatedStartDate": "June 2027",
+      "expectedCompletionDate": "October 2029",
+      "progressPercentage": 0,
+      "priceRange": "₹70 Lakhs - ₹2.2 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Nova Tech Hub will pioneer zero-net energy living with vertical forest sky gardens, AI climate optimization, co-working suites on lower tiers, and sleek urban duplex lofts on upper levels.",
+      "features": [
+        "Vertical Forest Sky Gardens on Every 4th Floor",
+        "AI-Powered Predictive Cooling & Energy Grids",
+        "Integrated High-Speed Workspaces & Podcast Studios"
+      ],
+      "amenities": [
+        "24/7 Co-working Lounge",
+        "Rooftop Glass Observatory",
+        "Automated Robotic Parking Facility"
+      ],
+      "specifications": [
+        {
+          "label": "Project Status",
+          "value": "Architectural Blueprint finalized, Site clearance starting Q2"
+        },
+        {
+          "label": "Target Certification",
+          "value": "LEED Zero Carbon & WELL Gold"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "_id": "proj_upc_003",
+      "createdAt": "2026-11-18T12:09:04.003Z",
+      "updatedAt": "2026-11-18T12:09:04.003Z",
+      "title": "The Celestia Sky Supertall Towers",
+      "slug": "the-celestia-sky-supertall-towers",
+      "status": "Upcoming",
+      "category": "Iconic 60-Storey Hyper-Luxury Skyscraper",
+      "location": "Bandra Kurla Complex (BKC), Financial Core",
+      "address": "1 BKC Central Boulevard, Mumbai",
+      "totalFloors": 60,
+      "totalUnits": 180,
+      "availableUnits": 180,
+      "soldUnits": 0,
+      "estimatedStartDate": "March 2027",
+      "expectedCompletionDate": "December 2030",
+      "progressPercentage": 0,
+      "priceRange": "₹4.20 Crore - ₹14.50 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Planned as the crown jewel of BKC, The Celestia will pierce the clouds at 260 meters elevation across 60 storeys. Designed by world-renowned structural architects, it features aerodynamic wind-mitigating crystalline geometry, a 3-storey Sky Oasis on Level 50, and presidential duplex penthouses with private outdoor plunge pools.",
+      "features": [
+        "Pre-Booking Open: Priority Allotment for Founding Investors",
+        "60 Storeys of World-Class Crystalline Architecture (260m Spire)",
+        "Triple-Deck Cantilevered Sky Oasis on Level 50",
+        "Presidential Duplex Penthouses with Private Helipads",
+        "Schindler Ultra-High-Speed 8 m/s Aerodynamic Elevators",
+        "100% Pre-Engineered Seismic Zone V Resilient Tuned Mass Dampers"
+      ],
+      "amenities": [
+        "Sky Garden Observatory & Star Gazing Lounge on 58th Floor",
+        "Private Michelin-Star Resident Dining Salon",
+        "Indoor Temperature-Controlled Olympic Spire Pool",
+        "Subterranean 6-Level Smart Robotic Car Vault",
+        "24/7 International Aviation & Lifestyle Concierge"
+      ],
+      "specifications": [
+        {
+          "label": "Project Status",
+          "value": "Municipal Master Plan Sanctioned, Groundbreaking Q1 2027"
+        },
+        {
+          "label": "Total Height",
+          "value": "260 meters (853 feet)"
+        },
+        {
+          "label": "Curtain Wall",
+          "value": "Triple-layer Low-E acoustic solar heat repellent glass"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "3 BHK Sky Residence",
+          "area": "2,900 sq.ft",
+          "bedrooms": 3,
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "5 BHK Duplex Imperial Sky Villa",
+          "area": "5,800 sq.ft",
+          "bedrooms": 5,
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "_id": "proj_upc_004",
+      "createdAt": "2026-11-18T12:09:04.004Z",
+      "updatedAt": "2026-11-18T12:09:04.004Z",
+      "title": "The Solis Mediterranean Cliffside Mansions",
+      "slug": "the-solis-mediterranean-cliffside-mansions",
+      "status": "Upcoming",
+      "category": "Private Oceanfront Cliffside Mansions",
+      "location": "Azure Bay Promontory, South Coast",
+      "address": "10 Sunset Ridge, Azure Bay",
+      "totalFloors": 3,
+      "totalUnits": 20,
+      "availableUnits": 20,
+      "soldUnits": 0,
+      "estimatedStartDate": "January 2027",
+      "expectedCompletionDate": "July 2029",
+      "progressPercentage": 0,
+      "priceRange": "₹5.80 Crore - ₹16.00 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Carved organically into the natural oceanfront cliffs of Azure Bay, The Solis offers 20 cascading private mansions inspired by the Amalfi Coast. Each residence is arranged with stepped limestone terraces, dual cantilevered glass-bottom infinity pools, and private funicular rail access to the secluded sandy cove below.",
+      "features": [
+        "Exclusive Pre-Launch: Limited to 20 Bespoke Mansions",
+        "Cascading Mediterranean Whitewashed & Travertine Architecture",
+        "Private 60ft Cantilevered Glass Infinity Pool per Mansion",
+        "Private Cliffside Funicular Tram to Private Beach Cove",
+        "Subterranean Temperature-Controlled 5-Car Glass Showroom",
+        "Outdoor Sunken Roman Fire Pit Lounge"
+      ],
+      "amenities": [
+        "Private Deep-Water Yacht Anchorage Point",
+        "Thalassotherapy Ocean Spa & Steam Caves",
+        "Resident Beachfront Pavilion & Organic Wine Vineyard",
+        "Private Helicopter Helipad on Bluff Summit"
+      ],
+      "specifications": [
+        {
+          "label": "Project Status",
+          "value": "Coastal Environmental Clearance Approved"
+        },
+        {
+          "label": "Plot Sizes",
+          "value": "10,000 sq.ft to 18,000 sq.ft per cliffside estate"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "4 BHK Cliffside Mediterranean Villa",
+          "area": "6,200 sq.ft",
+          "bedrooms": 4,
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "_id": "proj_upc_005",
+      "createdAt": "2026-11-18T12:09:04.005Z",
+      "updatedAt": "2026-11-18T12:09:04.005Z",
+      "title": "Aeris Neo-Tokyo Cyber Condos",
+      "slug": "aeris-neo-tokyo-cyber-condos",
+      "status": "Upcoming",
+      "category": "Futuristic AI-Integrated Smart High-Rise",
+      "location": "Neo-Tech Corridor, Sector 15",
+      "address": "88 Cyber Boulevard, Neo-Tech District",
+      "totalFloors": 36,
+      "totalUnits": 144,
+      "availableUnits": 144,
+      "soldUnits": 0,
+      "estimatedStartDate": "May 2027",
+      "expectedCompletionDate": "December 2029",
+      "progressPercentage": 0,
+      "priceRange": "₹1.15 Crore - ₹3.60 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Aeris merges Japanese modern minimalism with cutting-edge artificial intelligence. Planned with electrochromic smart glass that auto-tints with the sun, generative kinetic facades, drone delivery landing pads on every floor, and integrated whole-home neural automation.",
+      "features": [
+        "Early-Stage Pre-Booking: Cybernetic Smart Architecture",
+        "Kinetic Carbon-Fiber Facade with AI Solar Tracking",
+        "Dedicated Drone Parcel Delivery Verandah on Every Level",
+        "Electrochromic Privacy & Thermal Smart Glass Windows",
+        "Biophilic Hydroponic Living Herb Gardens in Kitchens"
+      ],
+      "amenities": [
+        "Holographic Mixed-Reality Gaming & VR Suites",
+        "Zen Onsen Mineral Hot Spring Baths",
+        "Autonomous EV Wireless Charging Bays with Biometric Recall",
+        "24/7 AI Security & Robotic Package Distribution"
+      ],
+      "specifications": [
+        {
+          "label": "Project Status",
+          "value": "Structural Design Audited, Pre-Sales Priority Open"
+        },
+        {
+          "label": "Smart Tech",
+          "value": "Neural Home OS with Offline Edge Server"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "2 BHK Cyber Smart Suite",
+          "area": "1,420 sq.ft",
+          "bedrooms": 2,
+          "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "title": "3 BHK Skyline Mezzanine",
+          "area": "2,300 sq.ft",
+          "bedrooms": 3,
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "_id": "proj_upc_006",
+      "createdAt": "2026-11-18T12:09:04.005Z",
+      "updatedAt": "2026-11-18T12:09:04.005Z",
+      "title": "Grand Versailles Royal Chateau Residences",
+      "slug": "grand-versailles-royal-chateau-residences",
+      "status": "Upcoming",
+      "category": "French Classical Baroque Luxury Mansions",
+      "location": "Imperial Palm Hills, Royal Enclave",
+      "address": "1 Palais Royale Way, Imperial Hills",
+      "totalFloors": 4,
+      "totalUnits": 16,
+      "availableUnits": 16,
+      "soldUnits": 0,
+      "estimatedStartDate": "September 2027",
+      "expectedCompletionDate": "May 2030",
+      "progressPercentage": 0,
+      "priceRange": "₹6.50 Crore - ₹18.00 Crore",
+      "coverImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Inspired by the grand palaces of 18th-century France, Grand Versailles presents 16 palatial chateaux nestled in 30 acres of private forest. Featuring hand-carved limestone facades, monumental domed ballrooms, private royal moat water features, and manicured labyrinth gardens.",
+      "features": [
+        "Ultra-Exclusive: Only 16 Private Palatial Chateaux",
+        "Authentic French Baroque Hand-Carved Limestone Facade",
+        "Private 30-Acre Forest Estate with Ornamental Moats",
+        "Grand 24ft Domed Ballroom with Gilded Gold Leaf Ceiling",
+        "Private Olympic Heated Outdoor & Indoor Pool Duo"
+      ],
+      "amenities": [
+        "Private Chauffeur Quarters & Helipad Clearing",
+        "Sommelier Wine Tasting Cellar Holding 5,000 Bottles",
+        "Private Equestrian Riding Arena & Stables",
+        "Private Lake with Classical Marble Pavilion"
+      ],
+      "specifications": [
+        {
+          "label": "Project Status",
+          "value": "Land Acquisition & Royal Architectural Planning Complete"
+        },
+        {
+          "label": "Estate Size",
+          "value": "1.5 Acres to 3.0 Acres per Chateau"
+        }
+      ],
+      "floorPlans": [
+        {
+          "title": "5 BHK Grand Chateau Royale",
+          "area": "8,500 sq.ft",
+          "bedrooms": 5,
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "featured": true
+    }
+  ],
+  "properties": [
+    {
+      "_id": "prop_001",
+      "createdAt": "2026-11-18T12:09:04.006Z",
+      "updatedAt": "2026-11-18T12:09:04.006Z",
+      "title": "3-BHK Oceanfront Luxury Penthouse",
+      "slug": "3-bhk-oceanfront-luxury-penthouse",
+      "type": "Penthouse",
+      "status": "Available",
+      "price": 18500000,
+      "priceDisplay": "₹1.85 Cr",
+      "location": "Downtown Bayview, Sector 12",
+      "address": "Grand Horizon Towers, 27th Floor, Unit 2701",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "areaSqFt": 2450,
+      "furnishing": "Furnished",
+      "facing": "East Facing Ocean View",
+      "parking": 2,
+      "floorNo": 27,
+      "totalFloors": 28,
+      "coverImage": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Experience the epitome of coastal grandeur in this bespoke 3-BHK penthouse in Grand Horizon Towers. Features private wrap-around terrace overlooking the bay, imported Italian marble flooring, Poggenpohl kitchen with Miele appliances, and automated Lutron lighting.",
+      "amenities": [
+        "Private Terrace with Hot Tub",
+        "Walk-in Italian Dressing Rooms",
+        "Sonos Architectural Sound System",
+        "Direct Private Elevator Access",
+        "2 Covered Underground Car Parks"
+      ],
+      "projectId": "proj_comp_001",
+      "projectTitle": "Grand Horizon Towers",
+      "featured": true
+    },
+    {
+      "_id": "prop_002",
+      "createdAt": "2026-11-18T12:09:04.006Z",
+      "updatedAt": "2026-11-18T12:09:04.006Z",
+      "title": "2-BHK Panoramic City View Flat",
+      "slug": "2-bhk-panoramic-city-view-flat",
+      "type": "Flat",
+      "status": "Available",
+      "price": 9500000,
+      "priceDisplay": "₹95 Lakhs",
+      "location": "Midtown Financial District",
+      "address": "Skyline Pinnacle, Floor 18, Unit 1804",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "areaSqFt": 1380,
+      "furnishing": "Semi-Furnished",
+      "facing": "North-East",
+      "parking": 1,
+      "floorNo": 18,
+      "totalFloors": 36,
+      "coverImage": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Sleek urban flat offering majestic sunset views across Midtown. Features German modular kitchen, recessed LED ambient ceiling lighting, floor-to-ceiling soundproof acoustic windows, and fiber-optic wiring throughout.",
+      "amenities": [
+        "Central Air Conditioning",
+        "Modular Island Kitchen",
+        "Balcony with Unobstructed Skyline View",
+        "Gym & Pool Membership Included"
+      ],
+      "projectId": "proj_ong_001",
+      "projectTitle": "Skyline Pinnacle Residences",
+      "featured": true
+    },
+    {
+      "_id": "prop_003",
+      "createdAt": "2026-11-18T12:09:04.007Z",
+      "updatedAt": "2026-11-18T12:09:04.007Z",
+      "title": "4-BHK Ultra Luxury Beachfront Villa",
+      "slug": "4-bhk-ultra-luxury-beachfront-villa",
+      "type": "Villa",
+      "status": "Available",
+      "price": 37500000,
+      "priceDisplay": "₹3.75 Cr",
+      "location": "Marina Coastline, Palm Bay",
+      "address": "Aura Waterfront Estate, Villa No. 8",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "areaSqFt": 4200,
+      "furnishing": "Furnished",
+      "facing": "West Facing Sea Sunset",
+      "parking": 3,
+      "floorNo": 1,
+      "totalFloors": 3,
+      "coverImage": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "An architectural crown jewel on Palm Bay Marina. This private beachfront villa features a private heated infinity pool, private boat deck, 3-car glass showcase garage, and master bedroom with spa bath overlooking the ocean waves.",
+      "amenities": [
+        "Private Infinity Pool",
+        "Private Beach Pier & Dock",
+        "Home Cinema & Games Room",
+        "Solar Power Grid with Battery Storage",
+        "Landscaped Tropical Courtyard"
+      ],
+      "projectId": "proj_upc_001",
+      "projectTitle": "Aura Waterfront Villas & Spa",
+      "featured": true
+    },
+    {
+      "_id": "prop_004",
+      "createdAt": "2026-11-18T12:09:04.007Z",
+      "updatedAt": "2026-11-18T12:09:04.007Z",
+      "title": "3-BHK Contemporary Independent House",
+      "slug": "3-bhk-contemporary-independent-house",
+      "type": "Independent House",
+      "status": "Booked",
+      "price": 12500000,
+      "priceDisplay": "₹1.25 Cr",
+      "location": "Green Valley Hillside, Sector 4",
+      "address": "44 Whispering Pines Way, Green Valley",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "areaSqFt": 2100,
+      "furnishing": "Semi-Furnished",
+      "facing": "North Facing Garden",
+      "parking": 2,
+      "floorNo": 1,
+      "totalFloors": 2,
+      "coverImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Independent two-level modern residence situated on a quiet cul-de-sac in Green Valley. Highlights include private landscaped lawn, cedarwood sundeck, gourmet open kitchen, and high vaulted living room ceilings.",
+      "amenities": [
+        "Private Fenced Backyard Lawn",
+        "Covered Car Porch for 2 Cars",
+        "Separate Maid & Utility Quarters",
+        "Solar Hot Water System"
+      ],
+      "projectId": "proj_comp_002",
+      "projectTitle": "Emerald Heights Residency",
+      "featured": false
+    },
+    {
+      "_id": "prop_005",
+      "createdAt": "2026-11-18T12:09:04.008Z",
+      "updatedAt": "2026-11-18T12:09:04.008Z",
+      "title": "1-BHK Executive Urban Studio Suite",
+      "slug": "1-bhk-executive-urban-studio-suite",
+      "type": "Apartment",
+      "status": "Sold",
+      "price": 4800000,
+      "priceDisplay": "₹48 Lakhs",
+      "location": "Downtown Bayview, Sector 12",
+      "address": "Grand Horizon Towers, Unit 506",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "areaSqFt": 720,
+      "furnishing": "Furnished",
+      "facing": "South Facing Garden View",
+      "parking": 1,
+      "floorNo": 5,
+      "totalFloors": 28,
+      "coverImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Fully furnished turnkey executive apartment ideal for young professionals or lucrative rental yields. Features space-saving smart furniture, built-in study nook, and seamless access to downtown metro.",
+      "amenities": [
+        "High Rental Yield Opportunity",
+        "Fully Furnished Designer Decor",
+        "Access to Tower Gym & Pool"
+      ],
+      "projectId": "proj_comp_001",
+      "projectTitle": "Grand Horizon Towers",
+      "featured": false
+    },
+    {
+      "_id": "prop_006",
+      "createdAt": "2026-11-18T12:09:04.009Z",
+      "updatedAt": "2026-11-18T12:09:04.009Z",
+      "title": "4-BHK Royal Duplex Sky Villa",
+      "slug": "4-bhk-royal-duplex-sky-villa",
+      "type": "Apartment",
+      "status": "Available",
+      "price": 24500000,
+      "priceDisplay": "₹2.45 Cr",
+      "location": "Midtown Financial District",
+      "address": "Skyline Pinnacle, Floor 32 & 33, Sky Villa 1",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "areaSqFt": 3100,
+      "furnishing": "Semi-Furnished",
+      "facing": "East Facing Sunrise",
+      "parking": 2,
+      "floorNo": 32,
+      "totalFloors": 36,
+      "coverImage": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Spread across two palatial levels on floors 32 and 33, this royal duplex features internal floating glass staircase, 20-foot ceiling in the living lounge, private plunge pool on the upper balcony, and unmatched 360-degree city views.",
+      "amenities": [
+        "Double Height Ceiling Living Room",
+        "Private Plunge Pool on Balcony",
+        "Internal Floating Glass Staircase",
+        "Butler Pantry & Dry Kitchen",
+        "High Security Keycard Access"
+      ],
+      "projectId": "proj_ong_001",
+      "projectTitle": "Skyline Pinnacle Residences",
+      "featured": true
+    }
+  ],
+  "enquiries": [
+    {
+      "_id": "enq_001",
+      "createdAt": "2026-11-18T12:09:04.009Z",
+      "updatedAt": "2026-11-18T12:09:04.009Z",
+      "name": "David Reynolds",
+      "email": "david.reynolds@example.com",
+      "phone": "+1 (555) 234-8765",
+      "message": "Hello, I would like to schedule a private site visit for the 3-BHK Penthouse in Grand Horizon Towers this coming Saturday afternoon. Please confirm availability.",
+      "enquiryType": "Property",
+      "propertyId": "prop_001",
+      "propertyTitle": "3-BHK Oceanfront Luxury Penthouse",
+      "status": "New",
+      "notes": "",
+      "customerId": "usr_cust_001"
+    },
+    {
+      "_id": "enq_002",
+      "createdAt": "2026-11-18T12:09:04.010Z",
+      "updatedAt": "2026-11-18T12:09:04.010Z",
+      "name": "Sarah Jenkins",
+      "email": "sarah.j@techventures.io",
+      "phone": "+1 (555) 987-1234",
+      "message": "Could you share the brochure and current floor plans for the Skyline Pinnacle project? Looking for a 3-bedroom unit on higher floors.",
+      "enquiryType": "Project",
+      "projectId": "proj_ong_001",
+      "projectTitle": "Skyline Pinnacle Residences",
+      "status": "Contacted",
+      "notes": "Sent project brochure and payment breakdown on email. Follow-up scheduled for Friday.",
+      "customerId": null
+    },
+    {
+      "_id": "enq_003",
+      "createdAt": "2026-11-18T12:09:04.010Z",
+      "updatedAt": "2026-11-18T12:09:04.010Z",
+      "name": "Michael Chen",
+      "email": "mchen.invest@gmail.com",
+      "phone": "+1 (555) 678-4321",
+      "message": "I am interested in early bird pre-launch booking for the Aura Waterfront Villas in Palm Bay. Are villa plot selections open yet?",
+      "enquiryType": "Project",
+      "projectId": "proj_upc_001",
+      "projectTitle": "Aura Waterfront Villas & Spa",
+      "status": "In Progress",
+      "notes": "VIP investor call arranged with sales director.",
+      "customerId": null
+    }
+  ],
+  "wishlists": [
+    {
+      "_id": "wish_001",
+      "createdAt": "2026-11-18T12:09:04.011Z",
+      "updatedAt": "2026-11-18T12:09:04.011Z",
+      "user": "usr_cust_001",
+      "property": "prop_001"
+    },
+    {
+      "_id": "wish_002",
+      "createdAt": "2026-11-18T12:09:04.012Z",
+      "updatedAt": "2026-11-18T12:09:04.012Z",
+      "user": "usr_cust_001",
+      "property": "prop_003"
+    }
+  ]
+}
