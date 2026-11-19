@@ -326,36 +326,38 @@ const ConstructionTracker = () => {
             <div className="absolute inset-0 bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%)] bg-[length:100%_4px] pointer-events-none opacity-40"></div>
 
             {/* Live Camera HUD Overlay */}
-            <div className="absolute top-4 left-4 flex flex-col gap-1 text-[11px] font-mono text-white/90 drop-shadow-md">
-              <div className="flex items-center gap-2 bg-black/60 backdrop-blur-md px-3 py-1 rounded-lg border border-white/10">
-                <span className="w-2.5 h-2.5 rounded-full bg-rose-500 animate-pulse"></span>
-                <span className="font-bold text-rose-400">REC [LIVE]</span>
-                <span className="text-slate-400">|</span>
-                <span>{currentCam.name}</span>
+            <div className="absolute top-2.5 sm:top-4 left-2.5 sm:left-4 right-2.5 sm:right-4 flex justify-between items-start gap-2 text-[10px] sm:text-[11px] font-mono text-white/90 drop-shadow-md">
+              <div className="flex flex-col gap-1 min-w-0">
+                <div className="flex items-center gap-1.5 sm:gap-2 bg-black/75 backdrop-blur-md px-2.5 sm:px-3 py-1 rounded-lg border border-white/10 w-fit max-w-full">
+                  <span className="w-2 sm:w-2.5 h-2 sm:h-2.5 rounded-full bg-rose-500 animate-pulse shrink-0"></span>
+                  <span className="font-bold text-rose-400 shrink-0">REC</span>
+                  <span className="text-slate-400">|</span>
+                  <span className="truncate max-w-[120px] sm:max-w-xs">{currentCam.name}</span>
+                </div>
+                <div className="hidden sm:block bg-black/70 backdrop-blur-md px-3 py-1 rounded-lg border border-white/10 w-fit">
+                  <span>GPS: {selectedProject.location} • 1080p 60FPS</span>
+                </div>
               </div>
-              <div className="bg-black/60 backdrop-blur-md px-3 py-1 rounded-lg border border-white/10 w-fit">
-                <span>GPS: {selectedProject.location} • 1080p 60FPS</span>
-              </div>
-            </div>
 
-            {/* Digital Clock in Right Corner */}
-            <div className="absolute top-4 right-4 bg-black/70 backdrop-blur-md px-3 py-1 rounded-lg border border-white/10 font-mono text-gold-400 text-xs font-black">
-              {liveTimestamp} IST
+              {/* Digital Clock in Right Corner */}
+              <div className="bg-black/80 backdrop-blur-md px-2.5 sm:px-3 py-1 rounded-lg border border-white/10 font-mono text-gold-400 text-[10px] sm:text-xs font-black shrink-0">
+                {liveTimestamp} IST
+              </div>
             </div>
 
             {/* Bottom Controls Bar */}
-            <div className="absolute bottom-4 left-4 right-4 flex justify-between items-center bg-black/60 backdrop-blur-md px-4 py-2.5 rounded-2xl border border-white/10 text-xs">
-              <span className="text-slate-300 flex items-center gap-1.5">
-                <Thermometer size={14} className="text-gold-400" />
-                <span>Ambient: {metrics.weatherCondition}</span>
+            <div className="absolute bottom-2.5 sm:bottom-4 left-2.5 sm:left-4 right-2.5 sm:right-4 flex flex-col sm:flex-row justify-between sm:items-center gap-2 bg-black/70 backdrop-blur-md px-3 sm:px-4 py-2 sm:py-2.5 rounded-2xl border border-white/10 text-[11px] sm:text-xs">
+              <span className="text-slate-300 flex items-center gap-1.5 truncate">
+                <Thermometer size={14} className="text-gold-400 shrink-0" />
+                <span className="truncate">Ambient: {metrics.weatherCondition}</span>
               </span>
 
-              <div className="flex items-center gap-3">
+              <div className="flex items-center justify-end gap-2">
                 <button
                   onClick={() => setIsFeedLive(!isFeedLive)}
-                  className="px-3 py-1 rounded-lg bg-white/10 hover:bg-white/20 text-white font-semibold flex items-center gap-1"
+                  className="px-2.5 py-1 rounded-lg bg-white/15 hover:bg-white/25 text-white font-semibold flex items-center gap-1 text-[10px] sm:text-xs"
                 >
-                  {isFeedLive ? <Pause size={13} /> : <Play size={13} />}
+                  {isFeedLive ? <Pause size={12} /> : <Play size={12} />}
                   <span>{isFeedLive ? 'Freeze Feed' : 'Resume Live'}</span>
                 </button>
               </div>

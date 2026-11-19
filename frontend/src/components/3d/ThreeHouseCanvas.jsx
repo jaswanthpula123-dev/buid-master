@@ -744,18 +744,21 @@ const ThreeHouseCanvas = ({
   }, [lightingMood]);
 
   return (
-    <div className="relative w-full h-full min-h-[480px] sm:min-h-[580px] bg-slate-900 rounded-2xl overflow-hidden select-none">
+    <div className="relative w-full h-full min-h-[360px] sm:min-h-[520px] lg:min-h-[580px] bg-slate-900 rounded-2xl overflow-hidden select-none">
       {/* 3D WebGL Canvas */}
-      <div ref={mountRef} className="w-full h-full cursor-grab active:cursor-grabbing" />
+      <div ref={mountRef} className="w-full h-full cursor-grab active:cursor-grabbing touch-none" />
 
       {/* Floating 3D HUD Overlay Controls */}
-      <div className="absolute top-4 left-4 z-10 flex flex-wrap items-center gap-2">
-        <div className="px-3 py-1.5 rounded-xl bg-navy-950/80 backdrop-blur-md border border-white/20 text-white text-xs font-bold flex items-center gap-2 shadow-lg">
+      <div className="absolute top-3 sm:top-4 left-3 sm:left-4 z-10 flex flex-wrap items-center gap-1.5 sm:gap-2">
+        <div className="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-xl bg-navy-950/85 backdrop-blur-md border border-white/20 text-white text-[11px] sm:text-xs font-bold flex items-center gap-1.5 sm:gap-2 shadow-lg">
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-          <span>WebGL 3D Engine Active</span>
+          <span>WebGL 3D Active</span>
         </div>
         <div className="hidden sm:flex px-3 py-1.5 rounded-xl bg-navy-950/60 backdrop-blur-md border border-white/10 text-slate-300 text-xs">
           <span>Click & Drag to Orbit · Scroll to Zoom</span>
+        </div>
+        <div className="flex sm:hidden px-2 py-1 rounded-xl bg-navy-950/80 backdrop-blur-md border border-white/10 text-slate-300 text-[10px]">
+          <span>Touch: 1-Finger Orbit · Pinch Zoom</span>
         </div>
       </div>
 

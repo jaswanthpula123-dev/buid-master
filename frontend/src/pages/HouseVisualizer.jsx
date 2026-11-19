@@ -266,32 +266,34 @@ const HouseVisualizer = () => {
             {/* View Mode Bar */}
             <div className="flex flex-wrap items-center justify-between gap-3 bg-navy-900/90 p-2 rounded-2xl border border-navy-800 shadow-xl">
               {/* Mode Buttons */}
-              <div className="flex items-center gap-1.5">
+              <div className="flex items-center gap-1.5 w-full sm:w-auto">
                 <button
                   onClick={() => {
                     setMode('dollhouse');
                     setActiveRoom('all');
                   }}
-                  className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition ${
+                  className={`flex-1 sm:flex-initial px-3 sm:px-4 py-2 rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 sm:gap-2 transition ${
                     mode === 'dollhouse'
                       ? 'bg-gold-500 text-navy-950 shadow-md font-black'
                       : 'text-slate-300 hover:text-white hover:bg-white/5'
                   }`}
                 >
                   <Layers size={15} />
-                  <span>3D Dollhouse Floor Plan</span>
+                  <span>3D Dollhouse</span>
+                  <span className="hidden sm:inline">Floor Plan</span>
                 </button>
 
                 <button
                   onClick={() => setMode('exterior')}
-                  className={`px-4 py-2 rounded-xl text-xs font-bold flex items-center gap-2 transition ${
+                  className={`flex-1 sm:flex-initial px-3 sm:px-4 py-2 rounded-xl text-xs font-bold flex items-center justify-center gap-1.5 sm:gap-2 transition ${
                     mode === 'exterior'
                       ? 'bg-gold-500 text-navy-950 shadow-md font-black'
                       : 'text-slate-300 hover:text-white hover:bg-white/5'
                   }`}
                 >
                   <Home size={15} />
-                  <span>3D Exterior Villa Facade</span>
+                  <span>3D Exterior</span>
+                  <span className="hidden sm:inline">Villa Facade</span>
                 </button>
               </div>
 

@@ -305,43 +305,46 @@ const Home = () => {
             subtitle="Explore our completed masterpieces, currently progressing skyscrapers with live milestone percentages, and upcoming visionary developments."
           />
 
-          {/* Tab Selector Buttons */}
-          <div className="flex justify-center mb-12">
-            <div className="inline-flex p-1.5 rounded-2xl bg-white border border-slate-200 shadow-sm">
+          {/* Tab Selector Buttons - Responsive Mobile & Desktop Layout */}
+          <div className="flex justify-start sm:justify-center mb-10 overflow-x-auto no-scrollbar pb-2 px-1">
+            <div className="inline-flex p-1.5 rounded-2xl bg-white border border-slate-200 shadow-sm shrink-0">
               <button
                 onClick={() => setActiveProjectTab('Ongoing')}
-                className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+                className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${
                   activeProjectTab === 'Ongoing'
                     ? 'bg-navy-900 text-white shadow-md'
                     : 'text-slate-600 hover:text-navy-900'
                 }`}
               >
                 <Clock size={16} className={activeProjectTab === 'Ongoing' ? 'text-gold-400' : ''} />
-                Ongoing Construction ({ongoingProjects.length})
+                <span>Ongoing ({ongoingProjects.length})</span>
+                <span className="hidden sm:inline">Construction</span>
               </button>
 
               <button
                 onClick={() => setActiveProjectTab('Completed')}
-                className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+                className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${
                   activeProjectTab === 'Completed'
                     ? 'bg-navy-900 text-white shadow-md'
                     : 'text-slate-600 hover:text-navy-900'
                 }`}
               >
                 <CheckCircle2 size={16} className={activeProjectTab === 'Completed' ? 'text-emerald-400' : ''} />
-                Completed Buildings ({completedProjects.length})
+                <span>Completed ({completedProjects.length})</span>
+                <span className="hidden sm:inline">Buildings</span>
               </button>
 
               <button
                 onClick={() => setActiveProjectTab('Upcoming')}
-                className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+                className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 sm:py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all whitespace-nowrap ${
                   activeProjectTab === 'Upcoming'
                     ? 'bg-navy-900 text-white shadow-md'
                     : 'text-slate-600 hover:text-navy-900'
                 }`}
               >
                 <Sparkles size={16} className={activeProjectTab === 'Upcoming' ? 'text-amber-400' : ''} />
-                Upcoming Projects ({upcomingProjects.length})
+                <span>Upcoming ({upcomingProjects.length})</span>
+                <span className="hidden sm:inline">Projects</span>
               </button>
             </div>
           </div>
