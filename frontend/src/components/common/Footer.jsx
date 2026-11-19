@@ -113,8 +113,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone size={18} className="text-gold-400 shrink-0" />
-                <a href="tel:+18005552845" className="hover:text-white transition">
-                  +1 (800) 555-BUILD / +1 (555) 019-2834
+                <a href="tel:+919346638123" className="hover:text-white transition">
+                  +91 93466 38123
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
@@ -132,7 +132,7 @@ const Footer = () => {
             {/* Direct WhatsApp Action */}
             <div className="mt-4">
               <a
-                href="https://wa.me/15550192834?text=Hello%20BuildMaster,%20I%20would%20like%20to%20enquire%20about%20your%20buildings%20and%20properties."
+                href="https://wa.me/919346638123?text=Hello%20BuildMaster,%20I%20would%20like%20to%20enquire%20about%20your%20buildings%20and%20properties."
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs shadow-md transition"

@@ -29,7 +29,7 @@ const seedAll = async () => {
       email: 'admin@buildmaster.com',
       password: adminPassword,
       role: 'admin',
-      phone: '+1 (555) 019-2834',
+      phone: '+91 93466 38123',
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
     });
 

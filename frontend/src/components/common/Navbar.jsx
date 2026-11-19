@@ -277,11 +277,11 @@ const Navbar = () => {
 
             {/* Quick Contact hotline - only on extra wide screens, with strict nowrap to prevent line breaks */}
             <a
-              href="tel:+18005552845"
+              href="tel:+919346638123"
               className="hidden 2xl:flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-navy-800/60 text-slate-200 hover:text-gold-300 text-xs font-bold border border-navy-700/40 whitespace-nowrap shrink-0"
             >
               <PhoneCall size={14} className="text-gold-400 shrink-0" />
-              <span className="whitespace-nowrap">(800) 555-BUILD</span>
+              <span className="whitespace-nowrap">+91 93466 38123</span>
             </a>
 
             {/* User Profile / Admin or Login */}
@@ -522,11 +522,11 @@ const Navbar = () => {
 
               {/* 1-Tap Hotline */}
               <a
-                href="tel:+18005552845"
+                href="tel:+919346638123"
                 className="mt-2.5 w-full py-2.5 px-3 rounded-xl bg-navy-900 border border-navy-800 text-gold-400 text-xs font-bold flex items-center justify-center gap-2 active:scale-95 transition"
               >
                 <PhoneCall size={14} />
-                <span>Call Hotline: (800) 555-BUILD</span>
+                <span>Call Hotline: +91 93466 38123</span>
               </a>
             </div>
 

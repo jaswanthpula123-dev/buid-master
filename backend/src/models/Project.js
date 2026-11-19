@@ -107,7 +107,7 @@ const projectSchema = new mongoose.Schema(
     builderDetails: {
       name: { type: String, default: 'BuildMaster Infra Pvt Ltd' },
       experience: { type: String, default: '18+ Years of Excellence' },
-      contact: { type: String, default: '+1 (800) 555-BUILD' },
+      contact: { type: String, default: '+91 93466 38123' },
     },
     milestones: [
       {

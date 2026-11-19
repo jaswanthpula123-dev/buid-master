@@ -143,7 +143,7 @@ const EnquiryModal = ({ isOpen, onClose, property = null, project = null }) => {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="+1 (555) 000-0000"
+                      placeholder="+91 93466 38123"
                       className="w-full pl-10 pr-4 py-2.5 text-sm rounded-lg border border-slate-300 focus:outline-none focus:border-gold-500 focus:ring-1 focus:ring-gold-500 transition"
                     />
                   </div>

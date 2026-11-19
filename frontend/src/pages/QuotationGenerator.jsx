@@ -666,7 +666,7 @@ const QuotationGenerator = () => {
                 </button>
 
                 <a
-                  href={`https://wa.me/15550192834?text=Hello%20BuildMaster,%20I%20have%20generated%20the%20cost%20sheet%20for%20${encodeURIComponent(selectedProperty?.title || 'Property')}%20(${unitNo})%20with%20grand%20total%20${encodeURIComponent(formatINR(grandTotal))}.%20Please%20verify%20availability.`}
+                  href={`https://wa.me/919346638123?text=Hello%20BuildMaster,%20I%20have%20generated%20the%20cost%20sheet%20for%20${encodeURIComponent(selectedProperty?.title || 'Property')}%20(${unitNo})%20with%20grand%20total%20${encodeURIComponent(formatINR(grandTotal))}.%20Please%20verify%20availability.`}
                   target="_blank"
                   rel="noreferrer"
                   className="p-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center gap-1.5 transition"

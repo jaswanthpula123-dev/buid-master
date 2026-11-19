@@ -610,7 +610,7 @@ const HouseVisualizer = () => {
               </button>
 
               <a
-                href={`https://wa.me/15550192834?text=Hello%20BuildMaster,%20I%20configured%20the%20${encodeURIComponent(selectedProperty?.title || 'House')}%20in%203D%20with%20${encodeURIComponent(currentFloorOption.name)}%20estimated%20at%20${encodeURIComponent(formatINR(totalTurnkeyEstimate))}`}
+                href={`https://wa.me/919346638123?text=Hello%20BuildMaster,%20I%20configured%20the%20${encodeURIComponent(selectedProperty?.title || 'House')}%20in%203D%20with%20${encodeURIComponent(currentFloorOption.name)}%20estimated%20at%20${encodeURIComponent(formatINR(totalTurnkeyEstimate))}`}
                 target="_blank"
                 rel="noreferrer"
                 className="w-full py-2.5 rounded-xl bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-300 border border-emerald-500/30 font-bold text-xs flex items-center justify-center gap-2 transition"

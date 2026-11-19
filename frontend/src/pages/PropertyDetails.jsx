@@ -200,7 +200,7 @@ const PropertyDetails = () => {
 
             {/* WhatsApp Direct */}
             <a
-              href={`https://wa.me/15550192834?text=Hello%20BuildMaster,%20I%20am%20inquiring%20about%20${encodeURIComponent(property.title)}%20(${property.priceDisplay || formatINR(property.price)})`}
+              href={`https://wa.me/919346638123?text=Hello%20BuildMaster,%20I%20am%20inquiring%20about%20${encodeURIComponent(property.title)}%20(${property.priceDisplay || formatINR(property.price)})`}
               target="_blank"
               rel="noreferrer"
               className="p-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white flex items-center gap-2 text-xs font-bold transition shadow-sm"
@@ -439,7 +439,7 @@ const PropertyDetails = () => {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="+1 (555) 000-0000"
+                      placeholder="+91 93466 38123"
                       className="w-full px-3 py-2 text-xs rounded-xl border border-slate-300 focus:outline-none focus:border-gold-500"
                     />
                   </div>

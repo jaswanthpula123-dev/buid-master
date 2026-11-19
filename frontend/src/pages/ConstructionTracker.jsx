@@ -555,7 +555,7 @@ const ConstructionTracker = () => {
                       required
                       value={subscriberPhone}
                       onChange={(e) => setSubscriberPhone(e.target.value)}
-                      placeholder="+91 98765 43210"
+                      placeholder="+91 93466 38123"
                       className="w-full px-3 py-2 text-xs rounded-xl bg-navy-950 border border-navy-700 text-white focus:outline-none focus:border-gold-500"
                     />
                   </div>

@@ -6,6 +6,7 @@ import { WishlistProvider } from './context/WishlistContext';
 // Common Components
 import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
+import WhatsAppButton from './components/common/WhatsAppButton';
 
 // Public Pages
 import Home from './pages/Home';
@@ -43,6 +44,7 @@ const PublicLayout = () => {
         <Outlet />
       </div>
       <Footer />
+      <WhatsAppButton />
     </div>
   );
 };

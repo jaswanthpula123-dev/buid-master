@@ -14,6 +14,7 @@ import {
   Star,
   Quote,
   PhoneCall,
+  MessageCircle,
   Box,
   Layers,
   Eye,
@@ -707,11 +708,20 @@ const Home = () => {
               Schedule a Site Consultation
             </Link>
             <a
-              href="tel:+18005552845"
+              href="tel:+919346638123"
               className="px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-sm border border-white/20 transition flex items-center gap-2"
             >
               <PhoneCall size={16} className="text-gold-400" />
-              <span>Call +1 (800) 555-BUILD</span>
+              <span>Call +91 93466 38123</span>
+            </a>
+            <a
+              href="https://wa.me/919346638123?text=Hello%20BuildMaster,%20I%20would%20like%20to%20consult%20regarding%20construction%20and%20properties."
+              target="_blank"
+              rel="noreferrer"
+              className="px-6 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm shadow-lg hover:shadow-emerald-500/20 transition flex items-center gap-2"
+            >
+              <MessageCircle size={16} />
+              <span>WhatsApp Us</span>
             </a>
           </div>
         </div>

@@ -148,7 +148,7 @@ const ProjectDetails = () => {
               </Link>
             )}
             <a
-              href={`https://wa.me/15550192834?text=Hello%20BuildMaster,%20I%20am%20inquiring%20about%20${encodeURIComponent(project.title)}`}
+              href={`https://wa.me/919346638123?text=Hello%20BuildMaster,%20I%20am%20inquiring%20about%20${encodeURIComponent(project.title)}`}
               target="_blank"
               rel="noreferrer"
               className="px-4 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm flex items-center gap-2 shadow-md transition"

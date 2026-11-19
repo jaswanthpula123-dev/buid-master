@@ -102,8 +102,8 @@ const ContactUs = () => {
                   <div>
                     <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500">Phone Numbers</h4>
                     <p className="text-sm font-semibold text-navy-950 mt-0.5">
-                      Toll Free: +1 (800) 555-BUILD<br />
-                      Direct Sales: +1 (555) 019-2834
+                      Direct / WhatsApp: <a href="tel:+919346638123" className="hover:text-gold-600 transition">+91 93466 38123</a><br />
+                      Helpline: <a href="tel:+919346638123" className="hover:text-gold-600 transition">+91 93466 38123</a>
                     </p>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ const ContactUs = () => {
               {/* WhatsApp Action */}
               <div className="pt-4 border-t border-slate-100">
                 <a
-                  href="https://wa.me/15550192834?text=Hello%20BuildMaster,%20I%20would%20like%20to%20enquire%20about%20your%20buildings%20and%20properties."
+                  href="https://wa.me/919346638123?text=Hello%20BuildMaster,%20I%20would%20like%20to%20enquire%20about%20your%20buildings%20and%20properties."
                   target="_blank"
                   rel="noreferrer"
                   className="w-full py-3 px-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-md transition"
@@ -238,7 +238,7 @@ const ContactUs = () => {
                         required
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                        placeholder="+1 (555) 000-0000"
+                        placeholder="+91 93466 38123"
                         className="w-full px-4 py-2.5 text-sm rounded-xl border border-slate-200 focus:outline-none focus:border-gold-500"
                       />
                     </div>
